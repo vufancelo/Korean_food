@@ -1,0 +1,152 @@
+.header{
+  background-image: url('img/lapsha.jpg');
+  height: 560px; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.container-name {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+body{
+  background-color: #fff;
+  margin:; 0 ;
+}
+h1{
+  font-size: 60px;
+  color: #fff;
+  margin-left: 60px;
+  margin-bottom: 23px;
+}
+h5{
+  font-family: 'Comfortaa', cursive;
+  color: #fff;
+  margin-left: 60px;
+  margin-bottom: 80px;
+
+}
+
+.container{
+
+}
+
+.product{
+  margin-bottom: 30px;
+}
+.image{
+  margin-bottom: 10px;
+}
+.image img {
+  height: 300px ;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.info h3{
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.rating{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  color:#ffdc33;
+}
+.rating li{
+  display: inline-block;
+}
+.info-price{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+.add-to-cart{
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #75c1ff;
+  border-radius: 19px;
+}
+.info h4{
+  margin-top: 14px;
+  font-weight: 500;
+  font-size: 16px ;
+  font-family: 'Comfortaa', cursive;
+}
+}
+.price{
+  font-weight: 500;
+  font-size: 20px ;
+  font-family: 'Comfortaa', cursive;
+}
+.navbar{
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+.navbar .container{
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-menu{
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+.navbar-menu li{
+  display: inline-block;
+}
+.navbar-menu li a{
+  display: inline-block;
+  color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 10px;
+  transition: all .08s ease-in-out;
+}
+.navbar-menu li a:hover{ 
+  opacity: 1;
+}
+.navbar-wrap{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.callback {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  color: #689dec;
+  border-radius: 100px;
+  background-color: #fff;
+  box-shadow: 0 9px 9px rgba(155, 193, 250, .4);
+  text-decoration: none;
+  transition: all .1s ease-out;
+}
+.callback:hover {
+  transform: scale(1.06);
+  text-decoration: none;
+  color: #fff;
+  background-color: #689dec;
+}
+.shr{
+  font-size: 27px;
+  font-family: 'Bebas Neue', cursive;
+}
